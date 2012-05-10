@@ -16,9 +16,8 @@ cd $gemname
 
 export JRUBY_OPTS=''
 
-rvm use jruby
-
 mkdir -p pkg
 mv *.gem pkg 2> /dev/null
 gem build $gemname.gemspec
 gem push $gemname*.gem
+mv $gemname*.gem pkg
