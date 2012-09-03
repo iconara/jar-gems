@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'async-http-client-jars'
-  s.version     = '1.7.4'
+  s.version     = '1.7.6'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = 'async-http-client-jars'
   
-  s.add_dependency 'netty-jars', '~> 3.4.1'
+  s.add_dependency 'netty-jars', '~> 3.0.0'
   s.add_dependency 'slf4j-jars', '~> 1.6.0'
 
   s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
