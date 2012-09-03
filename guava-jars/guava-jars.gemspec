@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'guava-jars'
-  s.version     = '11.0.1'
+  s.version     = '13.0.1'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
