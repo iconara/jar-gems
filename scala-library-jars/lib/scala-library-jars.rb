@@ -1,4 +1,5 @@
 # encoding: utf-8
 
 require 'java'
-require 'scala-library-2.9.2'
+
+Dir["#{File.expand_path('..', __FILE__)}/*.jar"].each { |jar| require(jar) }
