@@ -2,4 +2,5 @@
 
 require 'java'
 require 'scala-library-jars'
-require 'akka-actor-2.0.2'
+
+Dir["#{File.expand_path('..', __FILE__)}/*.jar"].each { |jar| require(jar) }
