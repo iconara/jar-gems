@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/iconara/jar-gems'
   s.summary     = %q{Gem package of leveldbjni}
   s.description = %q{Gem package of leveldbjni}
+  s.license     = 'New BSD'
 
   s.rubyforge_project = 'leveldbjni-jars'
 
