@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'ehcache-jars'
-  s.version     = '2.8.1'
+  s.version     = '2.8.1.0'
   s.platform    = 'java'
   s.authors     = ['Gustav Munkby']
   s.email       = ['grddev@gmail.com']
