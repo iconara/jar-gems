@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'slf4j-jars'
-  s.version     = '1.6.2'
+  s.version     = '1.7.7'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = %q{}
 
   s.rubyforge_project = 'slf4j-jars'
-  
+
   s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
   s.require_paths = %w(lib)
 end
