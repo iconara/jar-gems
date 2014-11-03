@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = 'metrics-graphite-jars'
   
-  # s.add_dependency 'xyz', '~> 0.0.0'
+  s.add_dependency 'metrics-core-jars', '~> 3.0.2'
+  s.add_dependency 'slf4j-jars', '~> 1.7.5'
 
   s.files         = Dir['lib/*.rb'] + Dir['lib/*.jar']
   s.require_paths = %w(lib)
