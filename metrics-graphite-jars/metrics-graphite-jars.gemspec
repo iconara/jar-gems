@@ -5,10 +5,10 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'metrics-graphite-jars'
-  s.version     = '3.0.2'
+  s.version     = '3.0.2.1'
   s.platform    = 'java'
-  s.authors     = ['Theo Hultberg']
-  s.email       = ['theo@iconara.net']
+  s.authors     = ['Michal Kovac', 'Theo Hultberg']
+  s.email       = ['miso@rubygems.ksp.sk', 'theo@iconara.net']
   s.homepage    = ''
   s.summary     = %q{}
   s.description = %q{}
