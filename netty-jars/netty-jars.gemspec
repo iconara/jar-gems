@@ -5,11 +5,11 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'netty-jars'
-  s.version     = '3.6.6'
+  s.version     = '4.0.23'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
-  s.homepage    = 'http://jboss.org/netty'
+  s.homepage    = 'http://netty.io'
   s.summary     = %q{Netty JARs}
   s.description = %q{}
 
