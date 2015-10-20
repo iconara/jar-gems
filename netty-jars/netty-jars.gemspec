@@ -5,13 +5,14 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'netty-jars'
-  s.version     = '4.0.25'
+  s.version     = '4.0.32'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
   s.homepage    = 'http://netty.io'
   s.summary     = %q{Netty JARs}
   s.description = %q{}
+  s.license = "Apache-2.0"
 
   s.rubyforge_project = 'netty-jars'
 
