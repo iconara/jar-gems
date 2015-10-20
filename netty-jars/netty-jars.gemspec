@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://netty.io'
   s.summary     = %q{Netty JARs}
   s.description = %q{}
+  s.license = "Apache-2.0"
 
   s.rubyforge_project = 'netty-jars'
 
