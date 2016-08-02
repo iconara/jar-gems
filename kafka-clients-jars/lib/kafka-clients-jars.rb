@@ -2,7 +2,6 @@
 
 require 'java'
 require 'slf4j-jars'
-require 'metrics-core-jars'
 require 'snappy-jars'
 require 'lz4-jars'
 
