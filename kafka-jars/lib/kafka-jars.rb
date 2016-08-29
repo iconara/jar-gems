@@ -3,6 +3,9 @@
 require 'java'
 require 'scala-library-jars'
 require 'slf4j-jars'
+require 'metrics-core-jars'
+require 'zkclient-jars'
+require 'jopt-simple-jars'
 require 'zookeeper-jars'
 require 'kafka-clients-jars'
 
