@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'log4j-jars'
-  s.version     = '2.0.2.1'
+  s.version     = '2.13.1'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
