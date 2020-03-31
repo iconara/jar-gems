@@ -5,7 +5,7 @@ $: << File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'slf4j-jars'
-  s.version     = '1.7.7'
+  s.version     = '1.7.30'
   s.platform    = 'java'
   s.authors     = ['Theo Hultberg']
   s.email       = ['theo@iconara.net']
